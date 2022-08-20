@@ -1,6 +1,7 @@
 import React from "react";
+import "./table.css";
 
-const dataTable = (props) => {
+const DataTable = (props) => {
   return (
     <>
       <div
@@ -32,11 +33,20 @@ const dataTable = (props) => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td className="text-center">
-                    hello
-                </td>
-              </tr>
+              {props.data &&
+                props.data.map((item) => {
+                  console.log(item,'dat');
+                  return (
+                    <tr>
+                      <td className="text-center" >{item.insttrument}</td>
+                      <td className="text-center">{item.AVG}</td>
+                      <td className="text-center">{item.SELL}</td>
+                      <td className="text-center">{item.SPREAD}</td>
+                      <td className="text-center">{item.Buy}</td>
+                      <td className="text-center">{item.Daily}</td>
+                    </tr>
+                  );
+                })}
             </tbody>
           </table>
         </div>
@@ -45,4 +55,4 @@ const dataTable = (props) => {
   );
 };
 
-export default dataTable;
+export default DataTable;

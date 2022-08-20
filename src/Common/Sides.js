@@ -7,7 +7,7 @@ const Sides = () => {
   return (
     <div>
        <SliderWrapper
-            slides={1}
+            slides={4}
             row={1}
             spacebetween={0}
             colors="#fff"

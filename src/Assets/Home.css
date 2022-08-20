@@ -1,0 +1,102 @@
+.sec img{
+    display: block; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #EAEEF1;
+}
+.section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.homepage-map {
+    background-image:url(https://xopenhub.pro/wp-content/themes/xopenhub/images/map2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 800px;
+    margin: 0 150px;
+}
+.text-center {
+    text-align: center!important;
+}
+.btn-black {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 0;
+    min-height: 47px;
+    width: 155px;
+    padding: 15px;
+}
+.btn-black:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 0;
+    min-height: 47px;
+    width: 155px;
+    padding: 15px;
+}
+.section .big-section-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(28,28,27,1);
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+
+/* for contact us page css */
+
+.stars-bg {
+    background-image: url(https://xopenhub.pro/wp-content/themes/xopenhub/images/cross.svg);
+    background-repeat: repeat;
+    /* background-position: top; */
+}
+.section .red {
+    color: rgba(227,5,19,1);
+}
+.btn-red {
+    color: #FFFFFF;
+    background-color: #e30513;
+    border-radius: 0;
+    min-height: 47px;
+    /* width: 168px; */
+    /* padding: 15px 0; */
+    padding: 15px;
+    min-width: 168px;
+}
+.btn-red:hover {
+        color: #FFFFFF;
+        background-color: #e30513;
+        border-radius: 0;
+        min-height: 47px;
+        /* width: 168px; */
+        /* padding: 15px 0; */
+        padding: 15px;
+        min-width: 168px;
+}
+.big-section-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(28,28,27,1);
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+input {
+    width: 100% !important;
+    color: #C1C9CE;
+    font-size: 14px;
+    line-height: 32px;
+    border: 2px solid #EAEEF1;
+    padding: 8px 15px;
+    display: block;
+    margin-top: 15px;
+    /* vertical-align: middle; */
+}

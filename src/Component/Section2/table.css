@@ -1,0 +1,11 @@
+ .table thead th {
+    background-color: #1C1C1B;
+    color: white;
+}
+#instrumentsWidget .table th {
+    border: none;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
