@@ -1,8 +1,7 @@
 import React from "react";
-import "../Assets/Home.css";
 import { Button, Modal } from "react-bootstrap";
 
-const Contact = () => {
+const Contact1 = () => {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
@@ -17,6 +16,7 @@ const Contact = () => {
           <img
             className="img-fluid footer-contact-image mb-4"
             id="xstation_app_ios_light_dark_1"
+            alt="wait_while_loading"
             src="https://xopenhub.pro/wp-content/themes/xopenhub/images/footer-question.png"
           />
         </div>
@@ -80,4 +80,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact1;

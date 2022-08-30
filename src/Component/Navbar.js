@@ -1,18 +1,16 @@
 import React from 'react';
-import '../Assets/Nav.css';
-import HeaderBreadcrumb from '../Common/HeaderBreadcrumb';
 
 const Navbar = () => {
   return (
     <>
       <div className='container'>
-        <header id="header">
+        <header id="header" className='HeaderComponent'>
           <nav className="navbar  justify-content-between hidden-xs">
-            <div className="ml-auto header-social ">
+            <div className=" header-social " style={{marginLeft:'auto'}}>
               <div className="header-contact-us mr-3" style={{ display: 'inline-block' }}>
-                <a className="btn btn-red" href="/try-demo/">Try Demo</a>
+                <a className="btn btn-red" href="/">Try Demo</a>
               </div>
-              <a href="https://xs5.xopenhub.pro/xoh/" target="_blank">
+              <a href="/" >
                 <svg xmlns="http://www.w3.org/2000/svg" width={122} height={40} viewBox="0 0 122 40">
                   <g id="Group_4938" data-name="Group 4938" transform="translate(-1658 -26)">
                     <text id="Try_Demo" data-name="Try Demo" transform="translate(1745 50)" fill="#636363" fontSize={14} fontFamily="Roboto-Bold, Roboto" fontWeight={700}><tspan x="-34.156" y={0}>LOG IN</tspan></text>
@@ -38,10 +36,10 @@ const Navbar = () => {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Services</a>
+                    <a className="nav-link active" href="/services">Services</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Products</a>
+                    <a className="nav-link" href="/product">Products</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/about">About us</a>
@@ -54,7 +52,7 @@ const Navbar = () => {
             </div>
           </nav>
         </header>
-<HeaderBreadcrumb />
+
 
       </div>
     </>

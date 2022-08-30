@@ -1,0 +1,53 @@
+.col-border {
+    border: 2px solid #EAEEF1;
+}
+.s-white { 
+    background-color: rgba(255,255,255,1);
+} 
+
+.contact-send-message { 
+    padding: 35px 56px;
+} 
+
+.title  { 
+    font-family: 'Poppins', sans-serif; 
+    text-align: left; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 32px; 
+    color: rgba(28,28,27,1); 
+    letter-spacing: 0.64px; 
+    text-transform: uppercase;
+} 
+
+@media only screen and (max-width: 1600px){ 
+    .title  { 
+      font-size: 32px;
+    } 
+  } 
+
+  .small-section-title  { 
+    font-family: 'Poppins', sans-serif; 
+    line-height: 21px; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 21px; 
+    color: rgba(28,28,27,1);
+} 
+
+
+
+.s-grey { 
+    background-color: rgba(249,251,252,1);
+} 
+
+.col-border-right { 
+    border-right: 2px solid #EAEEF1;
+} 
+
+.submit-btn{
+    background-color: #e30513;
+    color: #fff;
+    padding: 13px 22px;
+    margin-top: 20px;
+}

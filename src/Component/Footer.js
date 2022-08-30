@@ -1,5 +1,4 @@
 import React from 'react'
-import "../Assets/Footer.css"
 
 const Footer = () => {
   return (
@@ -23,19 +22,19 @@ const Footer = () => {
         <h5 className="text-uppercase">Site map</h5>
         <ul className="list-unstyled  footer-menu-xoh">
           <li>
-            <a href="#">Institutional liquidity</a>
+            <a href="/">Institutional liquidity</a>
           </li>
           <li>
-            <a href="#">Trading platforms</a>
+            <a href="/">Trading platforms</a>
           </li>
           <li>
-            <a href="#">Reseller program</a>
+            <a href="/">Reseller program</a>
           </li>
           <li>
-            <a href="#">Our company</a>
+            <a href="/">Our company</a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <a href="/">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -66,91 +65,91 @@ const Footer = () => {
         <h5 className="text-uppercase">Resources</h5>
         <ul className="list-unstyled  footer-menu-xoh">
           <li>
-            <a href="#">Blog</a>
+            <a href="/">Blog</a>
           </li>
           <li>
-            <a href="#">Knowleadge base</a>
+            <a href="/">Knowleadge base</a>
           </li>
           <li>
-            <a href="#">Clients &amp; partners</a>
+            <a href="/">Clients &amp; partners</a>
           </li>
           <li>
-            <a href="#">xAPI documentation</a>
+            <a href="/">xAPI documentation</a>
           </li>
           <li>
-            <a href="#">xAPI testing envoirment</a>
+            <a href="/">xAPI testing envoirment</a>
           </li>
         </ul>
       </div>
       {/* Grid column */}
       <div id="accordion" className="accordion d-block d-sm-none  mt-4  mb-4">
         <div className="card mb-0">
-          <div className="card-header collapsed " data-toggle="collapse" href="#collapseOne">
-            <a className="card-title">
+          <div className="card-header collapsed " data-toggle="collapse" >
+            <a className="card-title" href='/'>
               Site map <i className="fa fa-sort-up" aria-hidden="true" />
             </a>
-            <div id="collapseOne" className="card-body collapse show" data-parent="#accordion">
+            <div id="collapseOne" className="card-body collapse show" data-parent="/accordion">
               <ul className="list-unstyled  footer-menu-xoh">
                 <li>
-                  <a href="#">Institutional liquidity</a>
+                  <a href="/">Institutional liquidity</a>
                 </li>
                 <li>
-                  <a href="#">Trading platforms</a>
+                  <a href="/">Trading platforms</a>
                 </li>
                 <li>
-                  <a href="#">Reseller program</a>
+                  <a href="/">Reseller program</a>
                 </li>
                 <li>
-                  <a href="#">Our company</a>
+                  <a href="/">Our company</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="/">Contact Us</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-            <a className="card-title">
+          <div className="card-header collapsed" data-toggle="collapse" data-parent="/accordion" href="/collapseTwo">
+            <a className="card-title" href='/'>
               DEDICATED OFFERS <i className="fa fa-sort-down" aria-hidden="true" />
             </a>
-            <div id="collapseTwo" className="card-body collapse" data-parent="#accordion">
+            <div id="collapseTwo" className="card-body collapse" data-parent="/accordion">
               <ul className="list-unstyled footer-menu-xoh">
                 <li>
-                  <a href="#">Forex solutions for brokers</a>
+                  <a href="/">Forex solutions for brokers</a>
                 </li>
                 <li>
-                  <a href="#">Forex solutions for banks</a>
+                  <a href="/">Forex solutions for banks</a>
                 </li>
                 <li>
-                  <a href="#">MT4 white label</a>
+                  <a href="/">MT4 white label</a>
                 </li>
                 <li>
-                  <a href="#">Liquidity for MT4/MT5</a>
+                  <a href="/">Liquidity for MT4/MT5</a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-            <a className="card-title">
+            <a className="card-title" href='/'>
               Resources <i className="fa fa-sort-down" aria-hidden="true" />
             </a>
             <div id="collapseThree" className="collapse" data-parent="#accordion">
               <div className="card-body">
                 <ul className="list-unstyled  footer-menu-xoh">
                   <li>
-                    <a href="#">Blog</a>
+                    <a href="/">Blog</a>
                   </li>
                   <li>
-                    <a href="#">Knowleadge base</a>
+                    <a href="/">Knowleadge base</a>
                   </li>
                   <li>
-                    <a href="#">Clients &amp; partners</a>
+                    <a href="/">Clients &amp; partners</a>
                   </li>
                   <li>
-                    <a href="#">xAPI documentation</a>
+                    <a href="/">xAPI documentation</a>
                   </li>
                   <li>
-                    <a href="#">xAPI testing envoirment</a>
+                    <a href="/">xAPI testing envoirment</a>
                   </li>
                 </ul>
               </div>
@@ -162,9 +161,9 @@ const Footer = () => {
     {/* Grid row */}
   </div>
   {/* Footer Links */}
-  <div className="text-md-right text-xs-center py-3 mb-5 footer-social container">
-    <a href="https://www.facebook.com/"><img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/fb-red.svg" /></a>
-    <a href="https://www.linkedin.com/"><img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/in-red.svg" /></a>
+  <div className="text-right text-xs-center py-3 mb-5 footer-social container" style={{textAlign:'right'}}>
+    <a href="https://www.facebook.com/"><img  alt="wait_while_loading"src="https://xopenhub.pro/wp-content/themes/xopenhub/images/fb-red.svg" /></a>
+    <a href="https://www.linkedin.com/"><img alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/in-red.svg" /></a>
   </div>
   <div className="footer-copyright text-center">
     © 2022 X Open Hub.<span className="mobile-break" /> All Rights Reserved | <a href="www.google.com">Privacy Policy</a>

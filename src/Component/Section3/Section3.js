@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Section3.css"
+// import "./Section3.css"
 
 const Section3 = () => {
   return (
@@ -30,7 +30,7 @@ const Section3 = () => {
     <div className="col-sm-5 text-center text-md-left">
       <div className="row">
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/intruments.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/intruments.png" className />
         </div>
         <div className="col-md-8 mb-5">
           <div className="section-title">
@@ -41,7 +41,7 @@ const Section3 = () => {
           </p>
         </div>
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/quality_exec.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/quality_exec.png" className />
         </div>
         <div className="col-md-8 mb-5">
           <div className="section-title">
@@ -52,7 +52,7 @@ const Section3 = () => {
           </p>
         </div>
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/deep-liquidity.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/deep-liquidity.png" className />
         </div>
         <div className="col-md-8 mb-5">
           <div className="section-title">
@@ -67,7 +67,7 @@ const Section3 = () => {
     <div className="col-sm-5 offset-sm-1 text-center text-md-left">
       <div className="row">
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/regulatory.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/regulatory.png" className />
         </div>
         <div className="col-md-8 mb-3">
           <div className="section-title">
@@ -78,7 +78,7 @@ const Section3 = () => {
           </p>
         </div>
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/integration.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/integration.png" className />
         </div>
         <div className="col-md-8 mb-0">
           <div className="section-title">
@@ -95,7 +95,7 @@ const Section3 = () => {
           </p>
         </div>
         <div className="col-md-4">
-          <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/risk-control.png" className />
+          <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/risk-control.png" className />
         </div>
         <div className="col-md-8 mb-5">
           <div className="section-title">

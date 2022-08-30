@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section2.css";
+// import "./Section2.css";
 import Nav from "react-bootstrap/Nav";
 import DataTable from "./DataTable";
 import data from "./data";
@@ -113,6 +113,7 @@ const Section2 = () => {
             <div className="row">
               <div className="col-md-5 offset-md-1">
                 <img
+                 alt="wait_while_loading"
                   src="https://xopenhub.pro/wp-content/themes/xopenhub/images/multiasset.png"
                   className="img-fluid d-sm-none"
                 />
@@ -139,7 +140,7 @@ const Section2 = () => {
                   className="lear-more-play hidden-xs"
                   href="/liquidity-provider/"
                 >
-                  <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/play.svg" />
+                  <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/play.svg" />
                   <span style={{ padding: "3px" }}>Learn more</span>
                 </a>
                 <a
@@ -152,6 +153,7 @@ const Section2 = () => {
               </div>
               <div className="col-md-5 mt-5 ">
                 <img
+                 alt="wait_while_loading"
                   src="https://xopenhub.pro/wp-content/themes/xopenhub/images/wl-platform.png"
                   className="img-fluid mt-5 d-sm-none"
                 />
@@ -176,9 +178,9 @@ const Section2 = () => {
                 </p>
                 <a
                   className="lear-more-play hidden-xs"
-                  href="/trading-platform/"
+                  href="/"
                 >
-                  <img src="https://xopenhub.pro/wp-content/themes/xopenhub/images/play.svg" />
+                  <img  alt="wait_while_loading" src="https://xopenhub.pro/wp-content/themes/xopenhub/images/play.svg" />
                   <span style={{ padding: "3px" }}>Learn more</span>
                 </a>
                 <a

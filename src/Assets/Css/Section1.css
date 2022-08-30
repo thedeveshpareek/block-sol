@@ -1,9 +1,3 @@
- /* .homepage-bg-a{
-    /* background-image: url(../Images/homepage_img2.png); */
-    /* height: 600px; */
-    /* background-repeat: no-repeat; */
-    /* background-position: top center; */
-/* } */
 .homepage-bg-a .section {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -24,51 +18,11 @@
 .homepage-bg-a .section .red {
     color: rgba(227,5,19,1);
 }
-@media all{ 
-    .homepage-bg-a  h1 { 
-      overflow-wrap:  break-word;
-      margin: 0; 
-      padding: 0; 
-      border: 0; 
-      font-size: 100%; 
-      font: inherit; 
-      vertical-align: baseline;
-    }
-}
-
-@media all{ 
-    .homepage-bg-a  img { 
-      margin: 0; 
-      padding: 0; 
-      border: 0; 
-      font-size: 100%; 
-      font: inherit; 
-      vertical-align: baseline;
-    } 
-  }     
-  
-  .homepage-bg-a img { 
+.homepage-bg-a img { 
       vertical-align: middle; 
       border-style: none;
   }
-  @media all{ 
-    .homepage-bg-a p { 
-      overflow-wrap:  break-word;
-      margin: 0; 
-      padding: 0; 
-      border: 0; 
-      font-size: 100%; 
-      font: inherit; 
-      vertical-align: baseline;
-    } 
-  }     
-  
-  .homepage-bg-a p { 
-      margin-top: 0; 
-      margin-bottom: 1rem;
-  } 
-
-  .homepage-bg-a a{
+ .homepage-bg-a a{
     
         color: #007bff; 
         text-decoration: none; 

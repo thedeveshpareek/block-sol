@@ -1,0 +1,29 @@
+ 
+
+
+.section3 .vl-1 { 
+    background-color: rgba(234,238,241,1); 
+    width: 2px; 
+    height: 100%; 
+    max-width: 2px; 
+    flex: 2px; 
+    margin: 0 auto; 
+    display: block;
+} 
+
+.section3 .small-letter { 
+    text-transform: unset !important;
+} 
+
+.section3 .vertical-text { 
+    text-transform: uppercase; 
+    text-orientation: mixed; 
+    text-align: right; 
+    transform: rotate(270deg); 
+    font-size: 11px;
+}
+.section3 .text-left{
+    text-align: left;
+}
+
+

@@ -1,5 +1,4 @@
 import React from "react";
-import "../Assets/Section1.css";
 
 const Section1 = ({ alighToggle }) => {
   return (
