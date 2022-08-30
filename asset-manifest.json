@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thedeveshpareek/block-sol/static/css/main.296b9ce2.css",
+    "main.js": "/thedeveshpareek/block-sol/static/js/main.89b233e2.js",
+    "static/media/homepage_img2.png": "/thedeveshpareek/block-sol/static/media/homepage_img2.d8020a8d487d568f0b10.png",
+    "static/media/Block-Sol.png": "/thedeveshpareek/block-sol/static/media/Block-Sol.3832fb23e00ef29bbe0b.png",
+    "index.html": "/thedeveshpareek/block-sol/index.html",
+    "main.296b9ce2.css.map": "/thedeveshpareek/block-sol/static/css/main.296b9ce2.css.map",
+    "main.89b233e2.js.map": "/thedeveshpareek/block-sol/static/js/main.89b233e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296b9ce2.css",
+    "static/js/main.89b233e2.js"
+  ]
+}
