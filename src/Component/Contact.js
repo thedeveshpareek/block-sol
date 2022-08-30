@@ -51,7 +51,7 @@ const Contact1 = () => {
           <Modal.Title id="contained-modal-title-vcenter"></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4 class="modal-title text-left big-section-title" id="myModalLabel">
+          <h4 className="modal-title text-left big-section-title" id="myModalLabel">
             Request
             <br /> a contact
           </h4>
