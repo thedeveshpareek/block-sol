@@ -10,8 +10,10 @@ import HeaderBreadcrumb from "../Common/HeaderBreadcrumb";
 const Home = () => {
   return (
     <>
+    <div className="container section">
       <HeaderBreadcrumb title={Home} />
       <Slides />
+      </div>
       <Section2 />
       <Section3 />
       {/* section 3 */}
