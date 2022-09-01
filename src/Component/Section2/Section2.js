@@ -1,7 +1,7 @@
 import React from "react";
 // import "./Section2.css";
 import Nav from "react-bootstrap/Nav";
-import DataTable from "./DataTable";
+import DataTable from "./Sectio2Table";
 import data from "./data";
 
 const Section2 = () => {
